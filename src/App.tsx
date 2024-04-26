@@ -2,7 +2,6 @@ import App from "./components/app";
 import { useState } from 'react'
 import logo from './assets/png/logo.png';
 import logoB from './assets/png/logo-b.png';
-
 import './App.scss';
 
 function SampleApp() {
