@@ -1,8 +1,6 @@
 {
-  "name": "quickstart-live-video-sample-javascript",
+  "name": "live-video-streaming",
   "version": "1.0.0",
-  "homepage": "https://sendbird.github.io/sendbird-live-sample-video-react",
-  "private": true,
   "dependencies": {
     "@sendbird/live": "^1.2.0-beta.1",
     "@sendbird/uikit-react": "^3.6.8",
@@ -26,8 +24,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
@@ -45,8 +42,8 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@types/uuid": "^9.0.3",
+    "typescript": "^5.4.5",
     "gh-pages": "^6.0.0",
-    "sass": "^1.66.1",
-    "typescript": "^5.4.5"
+    "sass": "^1.66.1"
   }
 }
